@@ -1,13 +1,65 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  font-size: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 10px;
+  border-radius: 30px;
+  background-color: burlywood;
+}
+
+button {
+  background-color: rgba(255, 106, 0, 0.683);
+  height: 30px;
+  width: 100px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.game-card span {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+.buttons {
+  display: flex;
+  gap: 150px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.p {
+  text-align: center;
 }
