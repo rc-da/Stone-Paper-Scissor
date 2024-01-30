@@ -18,9 +18,9 @@ function RestartPage() {
       </p>
       <p>
         {" "}
-        Wanna play again?? Hit the <i>restart</i> button{" "}
+        Wanna play again?? Hit the <i>Play again</i> button{" "}
       </p>
-      <Button onClick={() => navigate("/")}>Restart</Button>
+      <Button onClick={() => navigate("/")}>Play again</Button>
     </div>
   );
 }

@@ -5,9 +5,7 @@ function WelcomePage() {
   const navigate = useNavigate();
   return (
     <div className="welcome">
-      <p>
-        <bold>Welcome</bold>
-      </p>
+      <p>Welcome</p>
       <p>This is a simple Stone, Paper, Scissor game.</p>
       <Button onClick={() => navigate("/game")}>Start Game</Button>
     </div>

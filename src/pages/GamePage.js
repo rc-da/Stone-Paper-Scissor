@@ -101,7 +101,8 @@ function GamePage() {
   if (gameEnd) {
     const winner = userScore > comScore ? "user" : "com";
     return navigate(
-      `/result?winner=${winner}&uScore=${userScore}&cScore=${comScore}`
+      `/result?winner=${winner}&uScore=${userScore}&cScore=${comScore}`,
+      5000
     );
   }
 
