@@ -1,65 +1,108 @@
-body {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: bisque;
-  font-size: 30px;
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+i {
+  color: rgb(255, 0, 0);
 }
 
 .app {
-  height: 600px;
-  width: 800px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(213, 177, 149);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  border: 10px;
-  border-radius: 30px;
-  background-color: burlywood;
-}
-
-button {
-  background-color: rgba(255, 106, 0, 0.683);
-  height: 30px;
-  width: 100px;
-  border: 0;
-  border-radius: 15px;
-}
-
-.game-card span {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.game {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 p {
+  margin: 2%;
+  font-size: 25px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 2%;
+  background-color: rgba(32, 210, 71, 0.813);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(99, 231, 127, 0.813);
+  filter: drop-shadow(0 0 0.35rem black);
+}
+
+.welcome,
+.restart {
+  height: 600px;
+  width: 600px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.395);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  height: 600px;
+  width: 600px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.395);
   display: flex;
   flex-direction: column;
 }
-
-button:hover {
-  background-color: bisque;
-}
-
-.buttons {
+.players {
+  height: 350px;
+  width: 600px;
   display: flex;
-  gap: 150px;
+  flex-direction: row;
+}
+.user,
+.com {
+  height: 350px;
+  width: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.content {
+.btns {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
 }
 
-.p {
-  text-align: center;
+.updates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 600px;
+}
+
+.handSign {
+  padding: 10px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 2%;
+  background-color: rgb(96, 37, 152);
+  cursor: pointer;
+}
+.handSign:hover {
+  background-color: blueviolet;
+  filter: drop-shadow(0 0 0.35rem black);
+}
+
+span {
+  font-size: 140px;
 }
